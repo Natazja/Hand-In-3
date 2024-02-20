@@ -12,4 +12,16 @@ fun main() {
     for (article in arrayList) {
         println(article)
     }
+
+    //OPAGAVE 2
+
+    val sandwich = Sandwich("JOEs Club", 75.60, 430)
+    val pizza = Pizza("PMD", 89.95, 2300)
+    val burger = Burger("Chicken Salsa", 84.95, 394)
+
+    val fastFoodArray: ArrayList<FastFood> = arrayListOf(sandwich, pizza, burger)
+
+    for (fastFood in fastFoodArray) {
+        fastFood.printFastFoodDetails()
+    }
 }
