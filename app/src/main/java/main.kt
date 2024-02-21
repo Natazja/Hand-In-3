@@ -24,4 +24,16 @@ fun main() {
     for (fastFood in fastFoodArray) {
         fastFood.printFastFoodDetails()
     }
+
+    //OPGAVE 3
+    val bike1 = Bicycle()
+    val bike2 = Bicycle()
+
+    bike1.changeGear(3)
+    bike1.speedUp(15)
+    bike1.applyBreaks(5)
+
+    bike2.changeGear(5)
+    bike2.speedUp(21)
+    bike2.applyBreaks(7)
 }
