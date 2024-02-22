@@ -68,7 +68,7 @@ fun main() {
 
     listOfPosts.deleteRedditPost(0);
 
-    listOfPosts.viewFrontPage()
+    listOfPosts.viewFrontPage();
 
     //OPGAVE 5
     val words = listOf("apple", "banana", "apple", "orange", "banana", "apple", "orange", "banana", "apple","banana", "apple", "orange", "banana","banana", "apple", "orange", "apple", "orange", "banana")
