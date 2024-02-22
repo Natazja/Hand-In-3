@@ -1,7 +1,7 @@
 fun main() {
     //OPGAVE 1
 
-    /*val article1 : Article = Article("JASON BITTEL", "The world’s heaviest snake has been hiding a big secret")
+    val article1 : Article = Article("JASON BITTEL", "The world’s heaviest snake has been hiding a big secret")
     val article2 : Article = Article("ERIC ALT", "Did Pluto ever actually stop being a planet? Experts debate")
     val article3 : Article = Article("KIT CHAPMAN", "What's that lurking in the mist? Inside the eerie science of bogs")
     val article4 : Article = Article("RACHEL FOBAR", "Do happy hens make better eggs?")
@@ -35,10 +35,10 @@ fun main() {
 
     bike2.changeGear(5)
     bike2.speedUp(21)
-    bike2.applyBreaks(7)*/
+    bike2.applyBreaks(7)
 
     //OPGAVE 4
-    /*val post1 = RedditPost("Maire", "Blomster")
+    val post1 = RedditPost("Maire", "Blomster")
     post1.downVotes = 3
     post1.upVotes = 7
     println(post1)
@@ -68,7 +68,7 @@ fun main() {
 
     listOfPosts.deleteRedditPost(0);
 
-    listOfPosts.viewFrontPage()*/
+    listOfPosts.viewFrontPage()
 
     //OPGAVE 5
     val words = listOf("apple", "banana", "apple", "orange", "banana", "apple", "orange", "banana", "apple","banana", "apple", "orange", "banana","banana", "apple", "orange", "apple", "orange", "banana")
